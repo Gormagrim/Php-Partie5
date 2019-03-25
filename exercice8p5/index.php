@@ -1,5 +1,5 @@
 <?php
-$month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
+$months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'décembre');
 
 ?>
 <!DOCTYPE html>
@@ -13,8 +13,8 @@ $month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
 
 <!-- Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau. -->
 <?php
-  foreach($month as $element) { ?>
-    <p><?= $element; ?></p>
+  foreach($months as $month) { ?>
+    <p><?= $month; ?></p>
   <?php }
  ?>
 

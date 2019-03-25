@@ -19,7 +19,7 @@ $hautsDeFrance = array(
 <!-- Avec le tableau de l'exercice 5, ajouter la ligne correspondant au département de la ville de Reims. -->
 <?php
 $hautsDeFrance['51'] = 'Marne';
-var_dump($hautsDeFrance);
+print_r($hautsDeFrance);
  ?>
 
 </body>

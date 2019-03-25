@@ -20,8 +20,8 @@ $hautsDeFrance = array(
       Cela pourra être, par exemple, de la forme :
      "Le département" + nom du département + "a le numéro" + numéro du département -->
 <?php
-  foreach($hautsDeFrance as $cle => $element) { ?>
-    <p>Le département : <?= $element; ?>, a le numéro : <?= $cle; ?></p>
+  foreach($hautsDeFrance as $departmentNumber => $department) { ?>
+    <p>Le département : <?= $department; ?>, a le numéro : <?= $departmentNumber; ?></p>
   <?php }
  ?>
 

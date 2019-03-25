@@ -18,8 +18,8 @@ $hautsDeFrance = array(
 
 <!-- Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau. -->
 <?php
-  foreach($hautsDeFrance as $cle => $element) { ?>
-    <p><?= $cle; ?> est le numéro du département : <?= $element; ?></p>
+  foreach($hautsDeFrance as $element) { ?>
+    <p><?= $element; ?></p>
   <?php }
  ?>
 

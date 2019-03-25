@@ -11,7 +11,7 @@ $month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
  <body>
 
 <!-- Avec le tableau de l'exercice , afficher la valeur de l'index 5. -->
-<p><?= $month[4] ?></p>
+<p><?= $month[5] ?></p>
 
 </body>
 </html>

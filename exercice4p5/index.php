@@ -14,5 +14,9 @@ $month = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet',
 <?php $month[7] = 'août'; ?>
 <p><?= $month[7] ?></p>
 
+<!-- A vérifier ne fonctionne pas ! -->
+<?php str_replace('aout', 'août', $month[7]);
+      echo $month[7] ?>
+
 </body>
 </html>

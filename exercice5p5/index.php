@@ -1,3 +1,4 @@
+<!-- On met les clefs entre quotes pour pouvoir les afficher entièrement, sinon on aurait 2 pour l'Aisne. -->
 <?php
 $hautsDeFrance = array(
   '02' => 'Aisne',
